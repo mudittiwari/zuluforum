@@ -3,10 +3,10 @@ function About()
 {
     return (
         <>
-            <div className="w-full flex items-center">
-                <div className="w-3/5 mt-10 px-8">
+            <div className="w-full flex-col md:flex-row flex items-center">
+                <div className="w-full md:w-3/5 order-2 md:order-1 mt-10 px-8">
                 <h1 className="text-3xl font-bold">
-                    About Us
+                    About Me
                 </h1>
                 <h1 className="text-base mt-3 font-semibold">
                 Public problem solution:
@@ -26,9 +26,9 @@ function About()
                 <h1 style={{ 'borderLeft': '8px solid black' }} className='text-sm font-semibold mt-0 text-black px-3 mb-3'>Etc.</h1>
                 <h1 className="text-base mt-3 font-semibold">The people are my power and I am their servant.</h1>
                 </div>
-                <div className='w-2/5 mt-10 flex flex-col justify-center items-center'>
+                <div className='w-2/5 order-1 md:order-2 mt-10 flex flex-col justify-center items-center'>
                     <img src={about} alt="" />
-                    <div className='w-28 mt-3 text-center font-bold'>Mudit Tiwari</div>
+                    <div className='w-48 mt-3 text-center font-bold'>Mr. Mahendra Daiman</div>
                 </div>
             </div>
         </>
