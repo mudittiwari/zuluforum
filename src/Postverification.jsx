@@ -3,7 +3,7 @@ import postveri from './assets/postveri.png';
 function Postverification() {
     return (
         <>
-            <div className="w-full mt-20 flex items-center justify-center">
+            <div className="w-full md:mt-20 mt-4 flex items-center justify-center">
                 <div className="w-4/5 h-max px-5 related py-5 flex justify-center flex-col items-center" >
                     <h1 className="text-2xl font-bold">
                         Verification Successfull

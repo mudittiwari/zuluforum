@@ -53,8 +53,8 @@ function Blogpage() {
     }, []);
     return (
         <>
-            <div className="flex-col lg:flex-row w-full mt-10 flex mb-10">
-                <div className="md:order-1 w-full lg:w-3/5 px-5" style={{ 'borderRight': '1px solid black' }}>
+            <div className="flex-col lg:flex-row w-full md:mt-10 mt-4 flex mb-10">
+                <div className=" w-full lg:w-3/5 px-5" style={{ 'borderRight': '1px solid black' }}>
 
                     {blogarray.map((blog, index) => {
                         console.log(blog.images[0]);
@@ -71,7 +71,7 @@ function Blogpage() {
                                     <h1 className="text-white px-5 py-2 font-semibold text-sm">{blog.date}</h1>
                                 </div>
                             </div>
-                            <p className="text-sm font-medium text-black mt-5 mb-5">{blog.desc}</p>
+                            <p className="text-sm font-medium text-black mt-5 mb-5">{blog.desc.substring(0,400)+'.......'}</p>
                             <a href="#" className="text-blue-900 font-semibold text-sm">Read More</a>
                         </div>
                     })}
@@ -81,7 +81,9 @@ function Blogpage() {
                 <div className="w-full lg:w-2/5 px-5">
                     <div>
                         <h1 className="text-2xl font-bold mb-5">ON TOP:-</h1>
-                        <div className="flex  flex-row  md:flex-col h-96 overflow-y-auto">
+                        
+
+                        <div className="h-96 overflow-y-auto">
                             {
                                 top.map((blog, index) => {
                                     return <div className="flex items-center mb-5" onClick={(e) => {

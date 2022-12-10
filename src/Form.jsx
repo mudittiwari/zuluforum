@@ -79,7 +79,7 @@ const Form = () => {
         
     }
     return (
-        <div className="w-full px-10 py-5 mt-10">
+        <div className="w-full px-10 py-5 md:mt-10 mt-4">
             <h1 style={{ 'borderLeft': '8px solid black' }} className='text-2xl font-bold text-black px-3 mb-5'>Complaint Registration Form</h1>
             <input value={name} onChange={(e)=>{
                 setName(e.target.value);

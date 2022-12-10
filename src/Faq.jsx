@@ -27,7 +27,7 @@ function Faq() {
     const classes = useStyles();
     return (
         <>
-            <div className="w-full mt-10 px-10">
+            <div className="w-full md:mt-10 mt-4 px-10">
             <h1 className="text-2xl w-full text-center font-bold mb-10">
                     Frequently Asked Questions
                 </h1>
