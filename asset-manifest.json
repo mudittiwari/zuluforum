@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zuluforum/static/css/main.cf13d6c2.css",
-    "main.js": "/zuluforum/static/js/main.ea4b18f1.js",
+    "main.js": "/zuluforum/static/js/main.cb0efd86.js",
     "static/media/about.png": "/zuluforum/static/media/about.6e413c462ab0964bc031.png",
     "static/media/16.jpg": "/zuluforum/static/media/16.1413b7c4a765840fea01.jpg",
     "static/media/2.jpg": "/zuluforum/static/media/2.a3d7940cc7a04435d1d5.jpg",
@@ -32,10 +32,10 @@
     "static/media/donate.png": "/zuluforum/static/media/donate.470ae4152bfa66e07c1e.png",
     "index.html": "/zuluforum/index.html",
     "main.cf13d6c2.css.map": "/zuluforum/static/css/main.cf13d6c2.css.map",
-    "main.ea4b18f1.js.map": "/zuluforum/static/js/main.ea4b18f1.js.map"
+    "main.cb0efd86.js.map": "/zuluforum/static/js/main.cb0efd86.js.map"
   },
   "entrypoints": [
     "static/css/main.cf13d6c2.css",
-    "static/js/main.ea4b18f1.js"
+    "static/js/main.cb0efd86.js"
   ]
 }
