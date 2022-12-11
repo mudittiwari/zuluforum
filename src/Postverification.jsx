@@ -1,5 +1,5 @@
 import './Css/homepage.css';
-import postveri from './assets/postveri.png';
+import postveri from './assets/postveri.jpeg';
 function Postverification() {
     return (
         <>

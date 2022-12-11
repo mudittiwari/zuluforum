@@ -13,6 +13,7 @@ import Postverification from './Postverification';
 import About from './About';
 import Testpage from './testpage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Donate from './Donate';
 function App() {
 
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/verification" element={<Verification />} />
           <Route exact path="/postverification" element={<Postverification />} />
           <Route exact path="/Addblog" element={<Addblog />} />
+          <Route exact path="/Donate" element={<Donate />} />
           
         </Routes>
         <Footer />

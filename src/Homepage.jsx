@@ -578,50 +578,68 @@ const Homepage = (props) => {
 
             <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=J2drjjKw3X4">
+                  src="https://www.youtube.com/embed/Yq6mKYY50hg" allowfullscreen>
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>पीला पंजा चला तो BPL परिवार का मुखिया चल बसा | Ashok Gehlot </h1>
+                </div>
+              </div>
+            <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <iframe width="320" height="315"
+                  src="https://www.youtube.com/embed/-O6oi60zRPw" allowfullscreen>
+                </iframe>
+                <div className=' bg-white p-1 mt-5'>
+                  <h1 className='text-black text-center font-bold text-lg'>पार्षद महेंद्र दैमन का उत्कृष्ट कार्यों के लिए किया सम्मान</h1>
+                </div>
+              </div>
+            <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <iframe width="320" height="315"
+                  src="https://www.youtube.com/embed/J2drjjKw3X4" allowfullscreen>
+                </iframe>
+                <div className=' bg-white p-1 mt-5'>
+                  <h1 className='text-black text-center font-bold text-lg'>सड़क व खोदे गए गड्डों को अतिशीघ्र दुरुस्त करवाने के लिए पार्षद महेन्द्र दैमन ने सौपा ज्ञापन ।</h1>
                 </div>
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=KvBD8-4uRfU">
+                  src="https://www.youtube.com/embed/KvBD8-4uRfU">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>
+#बांदीकुई #abpnews ने बांदीकुई शहर में पीने के पानी की विकराल समस्या का आँखो देखा हाल का प्रदर्शन</h1>
                 </div>
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=JN4_jWNbI7M">
+                  src="https://www.youtube.com/embed/JN4_jWNbI7M">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>#water #crisis issue in our city #bandikui #zeenews #rajasthan #india</h1>
                 </div>
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=fTJPE2i0HVc">
+                  src="https://www.youtube.com/embed/fTJPE2i0HVc">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>#पार्षद #महेन्द्र_दैमन की सूझबूझ से बोरवेल में गिरी 18 माह की बच्ची को निकालने में मिली #कामयाबी</h1>
                 </div>
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=J2drjjKw3X4">
+                  src="https://www.youtube.com/embed/J2drjjKw3X4">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>
+सड़क व खोदे गए गड्डों को अतिशीघ्र दुरुस्त करवाने के लिए पार्षद महेन्द्र दैमन ने सौपा ज्ञापन ।</h1>
                 </div>
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=_8UoE-M46pE">
+                  src="https://www.youtube.com/embed/_8UoE-M46pE">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>मिशन मदद कार्यक्रम के तहत पार्षद महेंद्र दैमन ने मदद का बीड़ा उठाया</h1>
                 </div>
               </div>
 
@@ -633,52 +651,70 @@ const Homepage = (props) => {
           <div className='flex w-full items-center'>
             <OwlCarousel items={1} className="owl-theme w-full flex justify-around flex-col" autoplay={true} loop margin={100}>
 
-              <div className='h-max w-full flex flex-col justify-center items-center item'>
+            <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=J2drjjKw3X4">
+                  src="https://www.youtube.com/embed/Yq6mKYY50hg" allowfullscreen>
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>पीला पंजा चला तो BPL परिवार का मुखिया चल बसा | Ashok Gehlot </h1>
+                </div>
+              </div>
+            <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <iframe width="320" height="315"
+                  src="https://www.youtube.com/embed/-O6oi60zRPw" allowfullscreen>
+                </iframe>
+                <div className=' bg-white p-1 mt-5'>
+                  <h1 className='text-black text-center font-bold text-lg'>पार्षद महेंद्र दैमन का उत्कृष्ट कार्यों के लिए किया सम्मान</h1>
+                </div>
+              </div>
+            <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <iframe width="320" height="315"
+                  src="https://www.youtube.com/embed/J2drjjKw3X4" allowfullscreen>
+                </iframe>
+                <div className=' bg-white p-1 mt-5'>
+                  <h1 className='text-black text-center font-bold text-lg'>सड़क व खोदे गए गड्डों को अतिशीघ्र दुरुस्त करवाने के लिए पार्षद महेन्द्र दैमन ने सौपा ज्ञापन ।</h1>
                 </div>
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=KvBD8-4uRfU">
+                  src="https://www.youtube.com/embed/KvBD8-4uRfU">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>
+#बांदीकुई #abpnews ने बांदीकुई शहर में पीने के पानी की विकराल समस्या का आँखो देखा हाल का प्रदर्शन</h1>
                 </div>
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=JN4_jWNbI7M">
+                  src="https://www.youtube.com/embed/JN4_jWNbI7M">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>#water #crisis issue in our city #bandikui #zeenews #rajasthan #india</h1>
                 </div>
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=fTJPE2i0HVc">
+                  src="https://www.youtube.com/embed/fTJPE2i0HVc">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>#पार्षद #महेन्द्र_दैमन की सूझबूझ से बोरवेल में गिरी 18 माह की बच्ची को निकालने में मिली #कामयाबी</h1>
                 </div>
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=J2drjjKw3X4">
+                  src="https://www.youtube.com/embed/J2drjjKw3X4">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>
+सड़क व खोदे गए गड्डों को अतिशीघ्र दुरुस्त करवाने के लिए पार्षद महेन्द्र दैमन ने सौपा ज्ञापन ।</h1>
                 </div>
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/watch?v=_8UoE-M46pE">
+                  src="https://www.youtube.com/embed/_8UoE-M46pE">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
-                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <h1 className='text-black text-center font-bold text-lg'>मिशन मदद कार्यक्रम के तहत पार्षद महेंद्र दैमन ने मदद का बीड़ा उठाया</h1>
                 </div>
               </div>
 

@@ -49,6 +49,11 @@ function Navbar() {
                     <Link className="no-underline text-white mx-2 font-semibold" to="/about">About Us</Link>
                     </Box>
                 </li>
+                <li className="w-56 py-2 px-2 rounded" >
+                    <Box onClick={toggleDrawer(anchor, false)}>
+                    <Link className="no-underline text-white mx-2 font-semibold" to="/Donate">Donate</Link>
+                    </Box>
+                </li>
                 
             </ul>
         </Box>
@@ -81,12 +86,13 @@ function Navbar() {
             </div>
             <div className="hidden md:flex w-full items-center border" style={{ 'borderBottom': '1px solid black' }}>
                 
-                <ul className="flex py-8 px-4 justify-center w-max">
-                    <li><Link className="no-underline text-black mx-4 font-semibold" to="/">Home</Link></li>
-                    <li><Link className="no-underline text-black mx-4 font-semibold" to="/blogs">Blog</Link></li>
-                    <li><Link className="no-underline text-black mx-4 font-semibold" to="/form">Form</Link></li>
-                    <li><Link className="no-underline text-black mx-4 font-semibold" to="/faq">FAQ</Link></li>
-                    <li><Link className="no-underline text-black mx-4 font-semibold" to="/about">About Us</Link></li>
+                <ul className="flex py-8 px-2 justify-center w-max">
+                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/">Home</Link></li>
+                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/blogs">Blog</Link></li>
+                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/form">Form</Link></li>
+                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/faq">FAQ</Link></li>
+                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/about">About Us</Link></li>
+                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/Donate">Donate</Link></li>
                 </ul>
                 <img src={logo} style={{'position':'absolute','left':'35%'}} className="w-48 mb-1 mx-20" alt="" />
 
