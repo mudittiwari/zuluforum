@@ -123,7 +123,7 @@ function Verification() {
                         Phone Verification
                     </h1>
                     <h1 className="text-base font-semibold mt-4">
-                        Code is sent to +91 9413565505
+                        Code is sent to +91 {location.state.phone}
                     </h1>
                     <div className='mt-10 flex'>
                         <div className='h-6 w-6 md:w-14 md:h-14 mx-4 related flex items-center'>

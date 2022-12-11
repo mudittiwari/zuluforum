@@ -33,8 +33,8 @@ function Footer()
 
                         
                     </div>
-                    <h1 className="font-bold w-max text-center  md:my-0 my-2">Copyright © 2015 - 2022 Deccan Chronicle.<br/>
-Designed, Developed & Maintained By Daksham</h1>
+                    <h1 className="font-bold w-max text-center  md:my-0 my-2">Copyright © 2022 Jagrukta Abhiyan.<br/>
+Designed, Developed & Maintained By ZITS</h1>
 <div className="w-max  md:my-0 my-2">
                         <div className="w-max h-7 rounded-2xl px-4" style={{'border':'1px solid black'}}><Call className="text-black"  style={{'fontSize':'20px'}} />
                         +91 8766545544</div>
