@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { getStorage,ref,getDownloadURL, uploadBytesResumable  } from "firebase/storage";
 import { getFirestore,collection,addDoc } from "firebase/firestore";
 import { useNavigate } from 'react-router-dom';
+import { getAuth, signInWithPhoneNumber,RecaptchaVerifier } from "firebase/auth";
 
 
 const Form = () => {
@@ -20,66 +21,12 @@ const Form = () => {
     const [department, setDepartment] = useState('');
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
-
-
-    const upload = async () => {
-        // e.preventDefault();
-        // console.log(image);
-        if (image == null)
-            return;
-        // changeupstatus(true);
-        // changesubstatus(true);
-        
-        // ref.current.continuousStart(0);
-        const storageRef = ref(storage, `files/${image.name}`);
-        const uploadTask = uploadBytesResumable(storageRef, image);
-        uploadTask.on('state_changed',
-            (snapShot) => {
-                //takes a snap shot of the process as it is happening
-                console.log(snapShot);
-            }, (err) => {
-                //catches the errors
-                console.log(err);
-                // ref.current.complete();
-                // changeupstatus(false);
-                // changesubstatus(false);
-            }, () => {
-                // gets the functions from storage refences the image storage in firebase by the children
-                // gets the download url then sets the image from firebase as the value for the imgUrl key:
-                // console.log(submit_status, upload_status);
-                getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
-                    // console.log(downloadURL);
-                    setImageurl(downloadURL);
-                  });
-                // ref.current.complete();
-                // changeupstatus(false);
-                // changesubstatus(false);
-            });
-            
-            // console.log(submit_status,upload_status);
-            // changeupstatus(false);
-
-    }
-
-
-    async function addcomplaint()
-    {
-        await upload();
-        await addDoc(collection(db, "complaints"), {
-            name: name,
-            phone: phone,
-            address: address,
-            department: department,
-            title: title,
-            description: description,
-            imageurl: imageurl,
-        });
-        // console.log(imageurl);
-        // console.log(imagearray);
-        
-    }
+    
+   
     return (
+        
         <div className="w-full px-10 py-5 md:mt-10 mt-4">
+            
             <h1 style={{ 'borderLeft': '8px solid black' }} className='text-2xl font-bold text-black px-3 mb-5'>Complaint Registration Form</h1>
             <input value={name} onChange={(e)=>{
                 setName(e.target.value);
@@ -107,8 +54,7 @@ const Form = () => {
             <button className='w-28 rounded-3xl px-6 py-1 mt-6 text-black font-semibold' style={{ 'border': '1px solid black' }} onClick={(e)=>{
                 e.preventDefault();
                 navigate('/verification',{'state':{name:name,phone:phone,address:address,department:department,title:title,description:description,image:image}});
-                // addcomplaint();
-            }}>Submit</button>
+                    }}>Submit</button>
             </div>
         </div>
     );

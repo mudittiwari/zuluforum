@@ -576,9 +576,9 @@ const Homepage = (props) => {
           <div className='flex w-full items-center'>
             <OwlCarousel items={3} className="owl-theme w-full flex justify-around flex-col" autoplay={true} loop margin={100}>
 
-              <div className='h-max w-full flex flex-col justify-center items-center item'>
+            <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                  src="https://www.youtube.com/watch?v=J2drjjKw3X4">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
                   <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
@@ -586,7 +586,7 @@ const Homepage = (props) => {
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                  src="https://www.youtube.com/watch?v=KvBD8-4uRfU">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
                   <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
@@ -594,7 +594,31 @@ const Homepage = (props) => {
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                  src="https://www.youtube.com/watch?v=JN4_jWNbI7M">
+                </iframe>
+                <div className=' bg-white p-1 mt-5'>
+                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                </div>
+              </div>
+              <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <iframe width="320" height="315"
+                  src="https://www.youtube.com/watch?v=fTJPE2i0HVc">
+                </iframe>
+                <div className=' bg-white p-1 mt-5'>
+                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                </div>
+              </div>
+              <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <iframe width="320" height="315"
+                  src="https://www.youtube.com/watch?v=J2drjjKw3X4">
+                </iframe>
+                <div className=' bg-white p-1 mt-5'>
+                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                </div>
+              </div>
+              <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <iframe width="320" height="315"
+                  src="https://www.youtube.com/watch?v=_8UoE-M46pE">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
                   <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
@@ -611,7 +635,7 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                  src="https://www.youtube.com/watch?v=J2drjjKw3X4">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
                   <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
@@ -619,7 +643,7 @@ const Homepage = (props) => {
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                  src="https://www.youtube.com/watch?v=KvBD8-4uRfU">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
                   <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
@@ -627,7 +651,31 @@ const Homepage = (props) => {
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <iframe width="320" height="315"
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                  src="https://www.youtube.com/watch?v=JN4_jWNbI7M">
+                </iframe>
+                <div className=' bg-white p-1 mt-5'>
+                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                </div>
+              </div>
+              <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <iframe width="320" height="315"
+                  src="https://www.youtube.com/watch?v=fTJPE2i0HVc">
+                </iframe>
+                <div className=' bg-white p-1 mt-5'>
+                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                </div>
+              </div>
+              <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <iframe width="320" height="315"
+                  src="https://www.youtube.com/watch?v=J2drjjKw3X4">
+                </iframe>
+                <div className=' bg-white p-1 mt-5'>
+                  <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                </div>
+              </div>
+              <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <iframe width="320" height="315"
+                  src="https://www.youtube.com/watch?v=_8UoE-M46pE">
                 </iframe>
                 <div className=' bg-white p-1 mt-5'>
                   <h1 className='text-black text-center font-bold text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
