@@ -36,8 +36,8 @@ function Footer()
                     <h1 className="font-bold w-max text-center  md:my-0 my-2">Copyright © 2022 Jagrukta Abhiyan.<br/>
 Designed, Developed & Maintained By ZITS</h1>
 <div className="w-max  md:my-0 my-2">
-                        <div className="w-max h-7 rounded-2xl px-4" style={{'border':'1px solid black'}}><Call className="text-black"  style={{'fontSize':'20px'}} />
-                        +91 8766545544</div>
+                        <div className="w-max h-11 rounded-3xl px-4" style={{'border':'1px solid black'}}><Call className="text-black"  style={{'fontSize':'40px'}} />
+                        <a href="tel:9214581112">9214581112</a></div>
                         
                         
                     </div>

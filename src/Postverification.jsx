@@ -8,13 +8,11 @@ function Postverification() {
                     <h1 className="text-2xl font-bold">
                         Verification Successfull
                     </h1>
-                    <img src={postveri} className="my-6" alt="" />
+                    <img src={postveri}  className="my-6 w-48" alt="" />
                     <h1 className="text-base font-semibold px-5 text-center">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti atque, mollitia rerum, commodi assumenda modi fugit at natus nesciunt in nulla id labore, consequuntur architecto! Repudiandae 
+                    Your problem has been registered. We will contact you soon.
                     </h1>
-                    <h1 className="text-base font-semibold mt-6 px-5 text-center">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti atque, mollitia rerum, commodi assumenda modi fugit at natus nesciunt in nulla id labore, consequuntur architecto! Repudiandae 
-                    </h1>
+                    
                 </div>
 
             </div>

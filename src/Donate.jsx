@@ -1,5 +1,5 @@
 import React from "react";
-import donate from './assets/donate.png'
+import donate from './assets/donate.jpeg'
 import { Facebook } from "@material-ui/icons";
 import { Twitter } from "@mui/icons-material";
 import { Instagram } from "@mui/icons-material";
@@ -14,7 +14,7 @@ function Donate()
                     </h1>
                 <div className="w-4/5 h-max px-5 related py-5 flex justify-center flex-col items-center" >
                     
-                    <h1 className="text-2xl font-semibold">
+                    <h1 className="text-2xl font-semibold capitalize">
                     Mahendra Daiman
                     </h1>
                     <img src={donate} className="my-6 w-40" alt="" />
@@ -36,10 +36,10 @@ function Donate()
                         
                     </div>
                     <h1 className="text-base font-semibold mt-6 px-5 text-center">
-                    Verifty Details as Name : Mahendra Daiman<br/>
-Account No. : u6049u43094<br/>
-IFSC Code : ui89fe4d<br/>
-Bank Name : SBI<br/>
+                    Name : Mahendra Daiman<br/>
+Account No. :50100128528342<br/>
+IFSC Code : HDFC0004318<br/>
+Bank Name : HDFC Bank<br/>
 
                     </h1>
                     <h1 className="text-2xl mt-5 font-semibold">

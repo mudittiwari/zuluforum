@@ -5,6 +5,7 @@ import { Drawer } from "@material-ui/core";
 import { Menu } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import logo from './assets/logo.png';
+import flag from './assets/flag.gif';
 function Navbar() {
 
 
@@ -32,7 +33,7 @@ function Navbar() {
 
                 <li className="w-56 py-2 px-2 rounded" >
                     <Box onClick={toggleDrawer(anchor, false)}>
-                    <Link className="no-underline text-white mx-2 font-semibold" to="/blogs">Blog</Link>
+                    <Link className="no-underline text-white mx-2 font-semibold" to="/blogs">Blogs</Link>
                     </Box>
                 </li>
 
@@ -46,7 +47,7 @@ function Navbar() {
                 </li>
                 <li className="w-56 py-2 px-2 rounded" >
                     <Box onClick={toggleDrawer(anchor, false)}>
-                    <Link className="no-underline text-white mx-2 font-semibold" to="/about">About Us</Link>
+                    <Link className="no-underline text-white mx-2 font-semibold" to="/about">About Me</Link>
                     </Box>
                 </li>
                 <li className="w-56 py-2 px-2 rounded" >
@@ -73,7 +74,7 @@ function Navbar() {
                 {['left'].map((anchor) => (
                     <React.Fragment key={anchor}>
                         {/* <Button className='text-white mx-5 text-left w-20' onClick={toggleDrawer(anchor, true)}>Filters</Button> */}
-                        <div className='md:hidden lg:hidden xl:hidden w-full flex justify-between 2xl:hidden' onClick={toggleDrawer(anchor, true)}> <Menu className='text-black mx-5 mt-3' /><img src={logo} className="w-40 mx-auto relative right-4"></img></div>
+                        <div className='md:hidden lg:hidden xl:hidden w-full flex items-center justify-between 2xl:hidden' > <div><Menu className='text-black mx-5 mt-2' onClick={toggleDrawer(anchor, true)} /></div><div> <Link to="/"><img src={logo} className="w-48"></img></Link></div><img src={flag} className="w-16 m-2"></img></div>
                         <Drawer
                             anchor={anchor}
                             open={state[anchor]}
@@ -84,17 +85,19 @@ function Navbar() {
                     </React.Fragment>
                 ))}
             </div>
-            <div className="hidden md:flex w-full items-center border" style={{ 'borderBottom': '1px solid black' }}>
+            <div className="hidden md:flex w-full items-center justify-between border" style={{ 'borderBottom': '1px solid black' }}>
                 
-                <ul className="flex py-8 px-2 justify-center w-max">
-                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/">Home</Link></li>
-                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/blogs">Blog</Link></li>
-                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/form">Form</Link></li>
-                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/faq">FAQ</Link></li>
-                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/about">About Us</Link></li>
-                    <li><Link className="no-underline text-black mx-3 font-semibold" to="/Donate">Donate</Link></li>
+                <ul className="flex py-8 px-0 w-1/3">
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/">Home</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/blogs">Blogs</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/form">Complain</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/faq">FAQ</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/about">About Me</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/Donate">Donate</Link></li>
                 </ul>
-                <img src={logo} style={{'position':'absolute','left':'35%'}} className="w-48 mb-1 mx-20" alt="" />
+                {/* <Link to="/"><img src={logo} className="w-48 mx-auto relative right-6"></img></Link> */}
+                <div className="w-1/3 flex justify-center"><Link  to="/"><img src={logo}  className="w-56 mb-1" alt="" /></Link></div>
+                <div className="w-1/3 flex justify-end"><img src={flag} className="w-16 m-2"></img></div>
 
             </div>
 
