@@ -39,7 +39,7 @@ function Navbar() {
 
                 <li className="w-56 py-2 px-2 rounded" >
                     <Box onClick={toggleDrawer(anchor, false)}>
-                    <Link className="no-underline text-white mx-2 font-semibold" to="/form">Form</Link>
+                    <Link className="no-underline text-white mx-2 font-semibold" to="/form">Complain</Link>
                     </Box>
                 </li>
                 <li className="w-56 py-2 px-2 rounded" >
@@ -88,12 +88,12 @@ function Navbar() {
             <div className="hidden md:flex w-full items-center justify-between border" style={{ 'borderBottom': '1px solid black' }}>
                 
                 <ul className="flex py-8 px-0 w-1/3">
-                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/">Home</Link></li>
-                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/blogs">Blogs</Link></li>
-                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/form">Complain</Link></li>
-                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/faq">FAQ</Link></li>
-                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/about">About Me</Link></li>
-                    <li><Link className="no-underline text-black mx-2 font-semibold text-sm" to="/Donate">Donate</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-xs" to="/">Home</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-xs" to="/blogs">Blogs</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-xs" to="/form">Complain</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-xs" to="/faq">FAQ</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-xs" to="/about">About Me</Link></li>
+                    <li><Link className="no-underline text-black mx-2 font-semibold text-xs" to="/Donate">Donate</Link></li>
                 </ul>
                 {/* <Link to="/"><img src={logo} className="w-48 mx-auto relative right-6"></img></Link> */}
                 <div className="w-1/3 flex justify-center"><Link  to="/"><img src={logo}  className="w-56 mb-1" alt="" /></Link></div>

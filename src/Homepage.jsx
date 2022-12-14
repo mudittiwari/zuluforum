@@ -404,9 +404,9 @@ const Homepage = (props) => {
           <div className='flex w-full items-center'>
             <OwlCarousel items={1} className="owl-theme w-full flex justify-around flex-col" autoplay={false} loop margin={100}>
 
-              <div className='h-max w-full flex flex-col justify-center items-center item'>
+            <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting1} className='w-24 h-48  relative ' alt="" />
+                  <img onClick={() => { console.log("mudit tiwari"); setShowModal1(true); modal(showModal1, cutting1) }} src={cutting1} className='w-24 h-48  relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -416,7 +416,7 @@ const Homepage = (props) => {
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting2} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal2(true); modal(showModal2, cutting2) }} src={cutting2} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -426,7 +426,7 @@ const Homepage = (props) => {
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting3} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal3(true); modal(showModal3, cutting3) }} src={cutting3} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -436,7 +436,7 @@ const Homepage = (props) => {
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting4} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal4(true); modal(showModal4, cutting4) }} src={cutting4} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -446,7 +446,7 @@ const Homepage = (props) => {
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting5} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal5(true); modal(showModal5, cutting5) }} src={cutting5} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -456,18 +456,7 @@ const Homepage = (props) => {
               </div>
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting6} className='w-24 h-48 relative ' alt="" />
-                </div>
-                <div className='border-2 w-full border-black bg-white p-1 mt-5'>
-                  <div className='border-2 border-black bg-white py-1'>
-                    <h1 className='text-black text-center font-bold text-lg'>Press Coverage</h1>
-                  </div>
-                </div>
-              </div>
-
-              <div className='h-max w-full flex flex-col justify-center items-center item'>
-                <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting7} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal6(true); modal(showModal6, cutting6) }} src={cutting6} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -478,19 +467,7 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting8} className='w-24 h-48 relative ' alt="" />
-                </div>
-                <div className='border-2 w-full border-black bg-white p-1 mt-5'>
-                  <div className='border-2 border-black bg-white py-1'>
-                    <h1 className='text-black text-center font-bold text-lg'>Press Coverage</h1>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className='h-max w-full flex flex-col justify-center items-center item'>
-                <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting9} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal7(true); modal(showModal7, cutting7) }} src={cutting7} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -501,29 +478,7 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting10} className='w-24 h-48 relative ' alt="" />
-                </div>
-                <div className='border-2 w-full border-black bg-white p-1 mt-5'>
-                  <div className='border-2 border-black bg-white py-1'>
-                    <h1 className='text-black text-center font-bold text-lg'>Press Coverage</h1>
-                  </div>
-                </div>
-              </div>
-
-              <div className='h-max w-full flex flex-col justify-center items-center item'>
-                <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting11} className='w-24 h-48 relative ' alt="" />
-                </div>
-                <div className='border-2 w-full border-black bg-white p-1 mt-5'>
-                  <div className='border-2 border-black bg-white py-1'>
-                    <h1 className='text-black text-center font-bold text-lg'>Press Coverage</h1>
-                  </div>
-                </div>
-              </div>
-
-              <div className='h-max w-full flex flex-col justify-center items-center item'>
-                <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting12} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal8(true); modal(showModal8, cutting8) }} src={cutting8} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -535,7 +490,7 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting13} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal9(true); modal(showModal9, cutting9) }} src={cutting9} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -546,7 +501,7 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting14} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal11(true); modal(showModal11, cutting10) }} src={cutting10} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -557,7 +512,7 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting15} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal11(true); modal(showModal11, cutting11) }} src={cutting11} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -568,7 +523,19 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting16} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal12(true); modal(showModal12, cutting12) }} src={cutting12} className='w-24 h-48 relative ' alt="" />
+                </div>
+                <div className='border-2 w-full border-black bg-white p-1 mt-5'>
+                  <div className='border-2 border-black bg-white py-1'>
+                    <h1 className='text-black text-center font-bold text-lg'>Press Coverage</h1>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <div className='h-max w-full border-2 border-black bg-white'>
+                  <img onClick={() => { setShowModal13(true); modal(showModal13, cutting13) }} src={cutting13} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -579,7 +546,7 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting17} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal14(true); modal(showModal14, cutting14) }} src={cutting14} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -590,7 +557,7 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting18} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal15(true); modal(showModal15, cutting15) }} src={cutting15} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -601,7 +568,7 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting19} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal16(true); modal(showModal16, cutting16) }} src={cutting16} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -612,7 +579,7 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting20} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal17(true); modal(showModal17, cutting17) }} src={cutting17} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
@@ -623,7 +590,40 @@ const Homepage = (props) => {
 
               <div className='h-max w-full flex flex-col justify-center items-center item'>
                 <div className='h-max w-full border-2 border-black bg-white'>
-                  <img src={cutting21} className='w-24 h-48 relative ' alt="" />
+                  <img onClick={() => { setShowModal18(true); modal(showModal18, cutting18) }} src={cutting18} className='w-24 h-48 relative ' alt="" />
+                </div>
+                <div className='border-2 w-full border-black bg-white p-1 mt-5'>
+                  <div className='border-2 border-black bg-white py-1'>
+                    <h1 className='text-black text-center font-bold text-lg'>Press Coverage</h1>
+                  </div>
+                </div>
+              </div>
+
+              <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <div className='h-max w-full border-2 border-black bg-white'>
+                  <img onClick={() => { setShowModal19(true); modal(showModal19, cutting19) }} src={cutting19} className='w-24 h-48 relative ' alt="" />
+                </div>
+                <div className='border-2 w-full border-black bg-white p-1 mt-5'>
+                  <div className='border-2 border-black bg-white py-1'>
+                    <h1 className='text-black text-center font-bold text-lg'>Press Coverage</h1>
+                  </div>
+                </div>
+              </div>
+
+              <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <div className='h-max w-full border-2 border-black bg-white'>
+                  <img onClick={() => { setShowModal20(true); modal(showModal20, cutting20) }} src={cutting20} className='w-24 h-48 relative ' alt="" />
+                </div>
+                <div className='border-2 w-full border-black bg-white p-1 mt-5'>
+                  <div className='border-2 border-black bg-white py-1'>
+                    <h1 className='text-black text-center font-bold text-lg'>Press Coverage</h1>
+                  </div>
+                </div>
+              </div>
+
+              <div className='h-max w-full flex flex-col justify-center items-center item'>
+                <div className='h-max w-full border-2 border-black bg-white'>
+                  <img onClick={() => { setShowModal21(true); modal(showModal21, cutting21) }} src={cutting21} className='w-24 h-48 relative ' alt="" />
                 </div>
                 <div className='border-2 w-full border-black bg-white p-1 mt-5'>
                   <div className='border-2 border-black bg-white py-1'>
